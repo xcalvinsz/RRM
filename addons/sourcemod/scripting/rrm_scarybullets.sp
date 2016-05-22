@@ -44,7 +44,7 @@ public void OnPluginStart()
 {
 	cMin = CreateConVar("rrm_scarybullets_min", "0.1", "Minimum value for the random number generator.");
 	cMax = CreateConVar("rrm_scarybullets_max", "1.0", "Maximum value for the random number generator.");
-	cDuration = CreateConVar("rrm_scarybullets_duration", "1,5", "Duration scary bullets last on affected players.");
+	cDuration = CreateConVar("rrm_scarybullets_duration", "1.5", "Duration scary bullets last on affected players.");
 	
 	cMin.AddChangeHook(OnConvarChanged);
 	cMax.AddChangeHook(OnConvarChanged);
