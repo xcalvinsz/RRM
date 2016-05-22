@@ -103,7 +103,7 @@ public void OnConvarChanged(Handle convar, char[] oldValue, char[] newValue)
 //This is our callback function that the core plugin will call
 //Parameter will be true if core is setting this modifier active, false to turn off
 //Value is return of random value between min and max values that you passed in RRM_Register
-//If value is negative that is because you passed false in the negate parameter in RRM_Register
+//If value is negative that is because you passed true in the negate parameter in RRM_Register
 public int RRM_Callback_Crits(bool enable, float value)
 {
 	//Here we store our global enable variable to equal enable
